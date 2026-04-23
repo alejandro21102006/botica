@@ -1,0 +1,4 @@
+com\upeu\pagos\mapper\PagosMapperTest.class
+com\upeu\pagos\PagosApplicationTests.class
+com\upeu\pagos\service\impl\PagosServiceImplTest.class
+com\upeu\pagos\controller\PagosControllerTest.class
