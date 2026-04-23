@@ -1,0 +1,51 @@
+name: proveedores-prod
+
+services:
+  mysql-proveedores:
+    image: mysql:8.4
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: ${PROVEEDORES_MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${PROVEEDORES_MYSQL_DATABASE}
+    ports:
+      - "3452:3306"
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h localhost -p${PROVEEDORES_MYSQL_ROOT_PASSWORD} || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
+    volumes:
+      - mysql_proveedores_data:/var/lib/mysql
+    networks:
+      - proveedores-int
+
+  proveedores:
+    build: .
+    restart: unless-stopped
+    depends_on:
+      mysql-proveedores:
+        condition: service_healthy
+    environment:
+      SPRING_PROFILES_ACTIVE: ${SPRING_PROFILES_ACTIVE}
+      CONFIG_SERVER_URL: ${CONFIG_SERVER_URL}
+      PROVEEDORES_DB_HOST: ${PROVEEDORES_DB_HOST}
+      PROVEEDORES_DB_PORT: ${PROVEEDORES_DB_PORT}
+      PROVEEDORES_DB_NAME: ${PROVEEDORES_DB_NAME}
+      PROVEEDORES_DB_USERNAME: ${PROVEEDORES_DB_USERNAME}
+      PROVEEDORES_DB_PASSWORD: ${PROVEEDORES_DB_PASSWORD}
+    ports:
+      - "9152:9152"
+    networks:
+      - proveedores-int
+      - ms-net
+
+volumes:
+  mysql_proveedores_data:
+
+networks:
+  ms-net:
+    external: true
+    name: ms-net
+  proveedores-int:
+    name: proveedores-int

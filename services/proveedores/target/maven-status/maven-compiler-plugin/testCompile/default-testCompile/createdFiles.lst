@@ -1,0 +1,4 @@
+com\upeu\proveedores\mapper\ProveedoresMapperTest.class
+com\upeu\proveedores\controller\ProveedoresControllerTest.class
+com\upeu\proveedores\service\impl\ProveedoresServiceImplTest.class
+com\upeu\proveedores\ProveedoresApplicationTests.class

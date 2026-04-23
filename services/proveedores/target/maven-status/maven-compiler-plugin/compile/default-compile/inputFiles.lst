@@ -1,0 +1,17 @@
+D:\ms2\ProyectosMS2026botica\services\proveedores\src\main\java\com\upeu\proveedores\client\CatalogoClient.java
+D:\ms2\ProyectosMS2026botica\services\proveedores\src\main\java\com\upeu\proveedores\config\OpenApiConfig.java
+D:\ms2\ProyectosMS2026botica\services\proveedores\src\main\java\com\upeu\proveedores\controller\GatewayInstanciasController.java
+D:\ms2\ProyectosMS2026botica\services\proveedores\src\main\java\com\upeu\proveedores\controller\ProveedoresController.java
+D:\ms2\ProyectosMS2026botica\services\proveedores\src\main\java\com\upeu\proveedores\dto\CategoriaDto.java
+D:\ms2\ProyectosMS2026botica\services\proveedores\src\main\java\com\upeu\proveedores\dto\ProveedoresRequest.java
+D:\ms2\ProyectosMS2026botica\services\proveedores\src\main\java\com\upeu\proveedores\dto\ProveedoresResponse.java
+D:\ms2\ProyectosMS2026botica\services\proveedores\src\main\java\com\upeu\proveedores\entity\Proveedores.java
+D:\ms2\ProyectosMS2026botica\services\proveedores\src\main\java\com\upeu\proveedores\exception\ApiErrorResponse.java
+D:\ms2\ProyectosMS2026botica\services\proveedores\src\main\java\com\upeu\proveedores\exception\GlobalExceptionHandler.java
+D:\ms2\ProyectosMS2026botica\services\proveedores\src\main\java\com\upeu\proveedores\exception\ResourceNotFoundException.java
+D:\ms2\ProyectosMS2026botica\services\proveedores\src\main\java\com\upeu\proveedores\filter\CorrelationIdFilter.java
+D:\ms2\ProyectosMS2026botica\services\proveedores\src\main\java\com\upeu\proveedores\mapper\ProveedoresMapper.java
+D:\ms2\ProyectosMS2026botica\services\proveedores\src\main\java\com\upeu\proveedores\ProveedoresApplication.java
+D:\ms2\ProyectosMS2026botica\services\proveedores\src\main\java\com\upeu\proveedores\repository\ProveedoresRepository.java
+D:\ms2\ProyectosMS2026botica\services\proveedores\src\main\java\com\upeu\proveedores\service\impl\ProveedoresServiceImpl.java
+D:\ms2\ProyectosMS2026botica\services\proveedores\src\main\java\com\upeu\proveedores\service\ProveedoresService.java
