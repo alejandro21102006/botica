@@ -1,0 +1,15 @@
+D:\ms2\ProyectosMS2026botica\services\catalogo\src\main\java\com\upeu\catalogo\CatalogoApplication.java
+D:\ms2\ProyectosMS2026botica\services\catalogo\src\main\java\com\upeu\catalogo\config\OpenApiConfig.java
+D:\ms2\ProyectosMS2026botica\services\catalogo\src\main\java\com\upeu\catalogo\controller\CategoriaController.java
+D:\ms2\ProyectosMS2026botica\services\catalogo\src\main\java\com\upeu\catalogo\controller\GatewayInstanciasController.java
+D:\ms2\ProyectosMS2026botica\services\catalogo\src\main\java\com\upeu\catalogo\dto\CategoriaRequest.java
+D:\ms2\ProyectosMS2026botica\services\catalogo\src\main\java\com\upeu\catalogo\dto\CategoriaResponse.java
+D:\ms2\ProyectosMS2026botica\services\catalogo\src\main\java\com\upeu\catalogo\entity\Categoria.java
+D:\ms2\ProyectosMS2026botica\services\catalogo\src\main\java\com\upeu\catalogo\exception\ApiErrorResponse.java
+D:\ms2\ProyectosMS2026botica\services\catalogo\src\main\java\com\upeu\catalogo\exception\GlobalExceptionHandler.java
+D:\ms2\ProyectosMS2026botica\services\catalogo\src\main\java\com\upeu\catalogo\exception\ResourceNotFoundException.java
+D:\ms2\ProyectosMS2026botica\services\catalogo\src\main\java\com\upeu\catalogo\filter\CorrelationIdFilter.java
+D:\ms2\ProyectosMS2026botica\services\catalogo\src\main\java\com\upeu\catalogo\mapper\CategoriaMapper.java
+D:\ms2\ProyectosMS2026botica\services\catalogo\src\main\java\com\upeu\catalogo\repository\CategoriaRepository.java
+D:\ms2\ProyectosMS2026botica\services\catalogo\src\main\java\com\upeu\catalogo\service\CategoriaService.java
+D:\ms2\ProyectosMS2026botica\services\catalogo\src\main\java\com\upeu\catalogo\service\impl\CategoriaServiceImpl.java

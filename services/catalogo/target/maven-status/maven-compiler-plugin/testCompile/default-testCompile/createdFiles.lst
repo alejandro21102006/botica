@@ -1,0 +1,4 @@
+com\upeu\catalogo\controller\CategoriaControllerTest.class
+com\upeu\catalogo\service\impl\CategoriaServiceImplTest.class
+com\upeu\catalogo\CatalogoApplicationTests.class
+com\upeu\catalogo\mapper\CategoriaMapperTest.class
