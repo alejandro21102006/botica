@@ -1,0 +1,4 @@
+com\upeu\auth\controller\AuthControllerTest.class
+com\upeu\auth\mapper\AuthMapperTest.class
+com\upeu\auth\AuthApplicationTests.class
+com\upeu\auth\service\impl\AuthServiceImplTest.class
