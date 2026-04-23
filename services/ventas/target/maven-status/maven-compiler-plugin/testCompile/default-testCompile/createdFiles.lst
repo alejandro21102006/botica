@@ -1,0 +1,4 @@
+com\upeu\ventas\mapper\VentasMapperTest.class
+com\upeu\ventas\VentasApplicationTests.class
+com\upeu\ventas\controller\VentasControllerTest.class
+com\upeu\ventas\service\impl\VentasServiceImplTest.class

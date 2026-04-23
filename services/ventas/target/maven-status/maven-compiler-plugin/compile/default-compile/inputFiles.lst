@@ -1,0 +1,17 @@
+D:\ms2\ProyectosMS2026botica\services\ventas\src\main\java\com\upeu\ventas\client\CatalogoClient.java
+D:\ms2\ProyectosMS2026botica\services\ventas\src\main\java\com\upeu\ventas\config\OpenApiConfig.java
+D:\ms2\ProyectosMS2026botica\services\ventas\src\main\java\com\upeu\ventas\controller\GatewayInstanciasController.java
+D:\ms2\ProyectosMS2026botica\services\ventas\src\main\java\com\upeu\ventas\controller\VentasController.java
+D:\ms2\ProyectosMS2026botica\services\ventas\src\main\java\com\upeu\ventas\dto\CategoriaDto.java
+D:\ms2\ProyectosMS2026botica\services\ventas\src\main\java\com\upeu\ventas\dto\VentasRequest.java
+D:\ms2\ProyectosMS2026botica\services\ventas\src\main\java\com\upeu\ventas\dto\VentasResponse.java
+D:\ms2\ProyectosMS2026botica\services\ventas\src\main\java\com\upeu\ventas\entity\Ventas.java
+D:\ms2\ProyectosMS2026botica\services\ventas\src\main\java\com\upeu\ventas\exception\ApiErrorResponse.java
+D:\ms2\ProyectosMS2026botica\services\ventas\src\main\java\com\upeu\ventas\exception\GlobalExceptionHandler.java
+D:\ms2\ProyectosMS2026botica\services\ventas\src\main\java\com\upeu\ventas\exception\ResourceNotFoundException.java
+D:\ms2\ProyectosMS2026botica\services\ventas\src\main\java\com\upeu\ventas\filter\CorrelationIdFilter.java
+D:\ms2\ProyectosMS2026botica\services\ventas\src\main\java\com\upeu\ventas\mapper\VentasMapper.java
+D:\ms2\ProyectosMS2026botica\services\ventas\src\main\java\com\upeu\ventas\repository\VentasRepository.java
+D:\ms2\ProyectosMS2026botica\services\ventas\src\main\java\com\upeu\ventas\service\impl\VentasServiceImpl.java
+D:\ms2\ProyectosMS2026botica\services\ventas\src\main\java\com\upeu\ventas\service\VentasService.java
+D:\ms2\ProyectosMS2026botica\services\ventas\src\main\java\com\upeu\ventas\VentasApplication.java
