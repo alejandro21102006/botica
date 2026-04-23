@@ -1,0 +1,17 @@
+D:\ms2\ProyectosMS2026botica\services\producto\src\main\java\com\upeu\producto\client\CatalogoClient.java
+D:\ms2\ProyectosMS2026botica\services\producto\src\main\java\com\upeu\producto\config\OpenApiConfig.java
+D:\ms2\ProyectosMS2026botica\services\producto\src\main\java\com\upeu\producto\controller\GatewayInstanciasController.java
+D:\ms2\ProyectosMS2026botica\services\producto\src\main\java\com\upeu\producto\controller\ProductoController.java
+D:\ms2\ProyectosMS2026botica\services\producto\src\main\java\com\upeu\producto\dto\CategoriaDto.java
+D:\ms2\ProyectosMS2026botica\services\producto\src\main\java\com\upeu\producto\dto\ProductoRequest.java
+D:\ms2\ProyectosMS2026botica\services\producto\src\main\java\com\upeu\producto\dto\ProductoResponse.java
+D:\ms2\ProyectosMS2026botica\services\producto\src\main\java\com\upeu\producto\entity\Producto.java
+D:\ms2\ProyectosMS2026botica\services\producto\src\main\java\com\upeu\producto\exception\ApiErrorResponse.java
+D:\ms2\ProyectosMS2026botica\services\producto\src\main\java\com\upeu\producto\exception\GlobalExceptionHandler.java
+D:\ms2\ProyectosMS2026botica\services\producto\src\main\java\com\upeu\producto\exception\ResourceNotFoundException.java
+D:\ms2\ProyectosMS2026botica\services\producto\src\main\java\com\upeu\producto\filter\CorrelationIdFilter.java
+D:\ms2\ProyectosMS2026botica\services\producto\src\main\java\com\upeu\producto\mapper\ProductoMapper.java
+D:\ms2\ProyectosMS2026botica\services\producto\src\main\java\com\upeu\producto\ProductoApplication.java
+D:\ms2\ProyectosMS2026botica\services\producto\src\main\java\com\upeu\producto\repository\ProductoRepository.java
+D:\ms2\ProyectosMS2026botica\services\producto\src\main\java\com\upeu\producto\service\impl\ProductoServiceImpl.java
+D:\ms2\ProyectosMS2026botica\services\producto\src\main\java\com\upeu\producto\service\ProductoService.java

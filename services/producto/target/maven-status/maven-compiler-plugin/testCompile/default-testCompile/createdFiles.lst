@@ -1,0 +1,4 @@
+com\upeu\producto\controller\ProductoControllerTest.class
+com\upeu\producto\mapper\ProductoMapperTest.class
+com\upeu\producto\service\impl\ProductoServiceImplTest.class
+com\upeu\producto\ProductoApplicationTests.class
