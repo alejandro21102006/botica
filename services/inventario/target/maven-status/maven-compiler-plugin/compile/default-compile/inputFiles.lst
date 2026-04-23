@@ -1,0 +1,17 @@
+D:\ms2\ProyectosMS2026botica\services\inventario\src\main\java\com\upeu\inventario\client\CatalogoClient.java
+D:\ms2\ProyectosMS2026botica\services\inventario\src\main\java\com\upeu\inventario\config\OpenApiConfig.java
+D:\ms2\ProyectosMS2026botica\services\inventario\src\main\java\com\upeu\inventario\controller\GatewayInstanciasController.java
+D:\ms2\ProyectosMS2026botica\services\inventario\src\main\java\com\upeu\inventario\controller\InventarioController.java
+D:\ms2\ProyectosMS2026botica\services\inventario\src\main\java\com\upeu\inventario\dto\CategoriaDto.java
+D:\ms2\ProyectosMS2026botica\services\inventario\src\main\java\com\upeu\inventario\dto\InventarioRequest.java
+D:\ms2\ProyectosMS2026botica\services\inventario\src\main\java\com\upeu\inventario\dto\InventarioResponse.java
+D:\ms2\ProyectosMS2026botica\services\inventario\src\main\java\com\upeu\inventario\entity\Inventario.java
+D:\ms2\ProyectosMS2026botica\services\inventario\src\main\java\com\upeu\inventario\exception\ApiErrorResponse.java
+D:\ms2\ProyectosMS2026botica\services\inventario\src\main\java\com\upeu\inventario\exception\GlobalExceptionHandler.java
+D:\ms2\ProyectosMS2026botica\services\inventario\src\main\java\com\upeu\inventario\exception\ResourceNotFoundException.java
+D:\ms2\ProyectosMS2026botica\services\inventario\src\main\java\com\upeu\inventario\filter\CorrelationIdFilter.java
+D:\ms2\ProyectosMS2026botica\services\inventario\src\main\java\com\upeu\inventario\InventarioApplication.java
+D:\ms2\ProyectosMS2026botica\services\inventario\src\main\java\com\upeu\inventario\mapper\InventarioMapper.java
+D:\ms2\ProyectosMS2026botica\services\inventario\src\main\java\com\upeu\inventario\repository\InventarioRepository.java
+D:\ms2\ProyectosMS2026botica\services\inventario\src\main\java\com\upeu\inventario\service\impl\InventarioServiceImpl.java
+D:\ms2\ProyectosMS2026botica\services\inventario\src\main\java\com\upeu\inventario\service\InventarioService.java

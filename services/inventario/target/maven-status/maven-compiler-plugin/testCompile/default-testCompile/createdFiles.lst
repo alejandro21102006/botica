@@ -1,0 +1,4 @@
+com\upeu\inventario\controller\InventarioControllerTest.class
+com\upeu\inventario\InventarioApplicationTests.class
+com\upeu\inventario\service\impl\InventarioServiceImplTest.class
+com\upeu\inventario\mapper\InventarioMapperTest.class
