@@ -1,0 +1,4 @@
+com\upeu\clientes\ClientesApplicationTests.class
+com\upeu\clientes\controller\ClientesControllerTest.class
+com\upeu\clientes\service\impl\ClientesServiceImplTest.class
+com\upeu\clientes\mapper\ClientesMapperTest.class

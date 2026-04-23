@@ -1,0 +1,17 @@
+D:\ms2\ProyectosMS2026botica\services\clientes\src\main\java\com\upeu\clientes\client\CatalogoClient.java
+D:\ms2\ProyectosMS2026botica\services\clientes\src\main\java\com\upeu\clientes\ClientesApplication.java
+D:\ms2\ProyectosMS2026botica\services\clientes\src\main\java\com\upeu\clientes\config\OpenApiConfig.java
+D:\ms2\ProyectosMS2026botica\services\clientes\src\main\java\com\upeu\clientes\controller\ClientesController.java
+D:\ms2\ProyectosMS2026botica\services\clientes\src\main\java\com\upeu\clientes\controller\GatewayInstanciasController.java
+D:\ms2\ProyectosMS2026botica\services\clientes\src\main\java\com\upeu\clientes\dto\CategoriaDto.java
+D:\ms2\ProyectosMS2026botica\services\clientes\src\main\java\com\upeu\clientes\dto\ClientesRequest.java
+D:\ms2\ProyectosMS2026botica\services\clientes\src\main\java\com\upeu\clientes\dto\ClientesResponse.java
+D:\ms2\ProyectosMS2026botica\services\clientes\src\main\java\com\upeu\clientes\entity\Clientes.java
+D:\ms2\ProyectosMS2026botica\services\clientes\src\main\java\com\upeu\clientes\exception\ApiErrorResponse.java
+D:\ms2\ProyectosMS2026botica\services\clientes\src\main\java\com\upeu\clientes\exception\GlobalExceptionHandler.java
+D:\ms2\ProyectosMS2026botica\services\clientes\src\main\java\com\upeu\clientes\exception\ResourceNotFoundException.java
+D:\ms2\ProyectosMS2026botica\services\clientes\src\main\java\com\upeu\clientes\filter\CorrelationIdFilter.java
+D:\ms2\ProyectosMS2026botica\services\clientes\src\main\java\com\upeu\clientes\mapper\ClientesMapper.java
+D:\ms2\ProyectosMS2026botica\services\clientes\src\main\java\com\upeu\clientes\repository\ClientesRepository.java
+D:\ms2\ProyectosMS2026botica\services\clientes\src\main\java\com\upeu\clientes\service\ClientesService.java
+D:\ms2\ProyectosMS2026botica\services\clientes\src\main\java\com\upeu\clientes\service\impl\ClientesServiceImpl.java

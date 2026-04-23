@@ -1,0 +1,51 @@
+name: clientes-prod
+
+services:
+  mysql-clientes:
+    image: mysql:8.4
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: ${CLIENTES_MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${CLIENTES_MYSQL_DATABASE}
+    ports:
+      - "3422:3306"
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h localhost -p${CLIENTES_MYSQL_ROOT_PASSWORD} || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
+    volumes:
+      - mysql_clientes_data:/var/lib/mysql
+    networks:
+      - clientes-int
+
+  clientes:
+    build: .
+    restart: unless-stopped
+    depends_on:
+      mysql-clientes:
+        condition: service_healthy
+    environment:
+      SPRING_PROFILES_ACTIVE: ${SPRING_PROFILES_ACTIVE}
+      CONFIG_SERVER_URL: ${CONFIG_SERVER_URL}
+      CLIENTES_DB_HOST: ${CLIENTES_DB_HOST}
+      CLIENTES_DB_PORT: ${CLIENTES_DB_PORT}
+      CLIENTES_DB_NAME: ${CLIENTES_DB_NAME}
+      CLIENTES_DB_USERNAME: ${CLIENTES_DB_USERNAME}
+      CLIENTES_DB_PASSWORD: ${CLIENTES_DB_PASSWORD}
+    ports:
+      - "9122:9122"
+    networks:
+      - clientes-int
+      - ms-net
+
+volumes:
+  mysql_clientes_data:
+
+networks:
+  ms-net:
+    external: true
+    name: ms-net
+  clientes-int:
+    name: clientes-int
