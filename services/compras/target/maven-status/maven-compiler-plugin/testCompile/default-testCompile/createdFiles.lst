@@ -1,0 +1,4 @@
+com\upeu\compras\controller\ComprasControllerTest.class
+com\upeu\compras\mapper\ComprasMapperTest.class
+com\upeu\compras\service\impl\ComprasServiceImplTest.class
+com\upeu\compras\ComprasApplicationTests.class
