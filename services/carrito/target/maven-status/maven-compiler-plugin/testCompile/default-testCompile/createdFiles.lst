@@ -1,0 +1,4 @@
+com\upeu\carrito\service\impl\CarritoServiceImplTest.class
+com\upeu\carrito\CarritoApplicationTests.class
+com\upeu\carrito\controller\CarritoControllerTest.class
+com\upeu\carrito\mapper\CarritoMapperTest.class
